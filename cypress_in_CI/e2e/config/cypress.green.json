@@ -1,0 +1,8 @@
+{
+  "animationDistanceThreshold": 5,
+  "baseUrl": "https://xxxxxxxxxxxxxxx.green.xxxxxxxxxxx.net",
+  "browser": "chrome",
+  "env": {
+    "configFile": "green"
+  }
+}

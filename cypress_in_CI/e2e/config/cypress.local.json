@@ -1,0 +1,9 @@
+{
+  "animationDistanceThreshold": 5,
+  "baseUrl": "http://localhost:4200",
+  "env": {
+    "configFile": "local",
+    "RETRIES": 2
+  },
+  "browser": "chrome"
+}

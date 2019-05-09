@@ -1,0 +1,43 @@
+{
+    "animationDistanceThreshold": 5,
+    "blacklistHosts": null,
+    "chromeWebSecurity": true,
+    "defaultCommandTimeout": 40000,
+    "baseUrl": "http://localhost:4200",
+    "browser": "chrome",
+    "env": {
+      "configFile": "local",
+      "RETRIES": 2
+    },
+    "execTimeout": 60000,
+    "fixturesFolder": "e2e/fixtures",
+    "hosts": null,
+    "integrationFolder": "e2e/integration",
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 50,
+    "pageLoadTimeout": 60000,
+    "pluginsFile": "e2e/plugins",
+    "port": null,
+    "reporter": "e2e/reporters/junit_reporter.js",
+    "reporterOptions": {
+      "mochaFile": "e2e/results/[hash].xml",
+      "rootSuiteTitle": "Angular 7 Registratiom-Login Sample"
+    },
+    "requestTimeout": 10000,
+    "responseTimeout": 30000,
+    "screenshotsFolder": "e2e/screenshots",
+    "supportFile": "e2e/support",
+    "taskTimeout": 60000,
+    "testFiles": "**/*.*",
+    "trashAssetsBeforeRuns": true,
+    "userAgent": "Cypress",
+    "video": false,
+    "videoCompression": 32,
+    "videoUploadOnPasses": true,
+    "videosFolder": "e2e/videos",
+    "viewportHeight": 950,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": true
+  }
+  

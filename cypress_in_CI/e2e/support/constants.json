@@ -1,0 +1,32 @@
+{
+  "BASEURLCIDEV2": "https://console.dev.srv.da.nsn-rdnet.net",
+  "testownercidev2": {
+    "email_id": "testowner@nokia.com",
+    "password": "testowner@123"
+  },
+  "softdeletedev2": {
+    "email_id": "softdelete@nokia.com",
+    "password": "test123#"
+  },
+  "basicuser": {
+    "email_id": "cypressbasic@nokia.com",
+    "password": "test123#"
+  },
+  "owneruser": {
+    "email_id": "cypressowner@nokia.com",
+    "password": "test123#"
+  },
+  "viewuser": {
+    "email_id": "cypressview@nokia.com",
+    "password": "test123#"
+  },
+  "adminuser": {
+    "email_id": "cypressadmin@nokia.com",
+    "password": "test123#"
+  },
+  "invaliduser": {
+    "email_id": "invalidcypressadmin@nokia.com",
+    "password": "test123#"
+  },
+  "edgeid": "CYPRESS::VIRTUAL::QEMU"
+}

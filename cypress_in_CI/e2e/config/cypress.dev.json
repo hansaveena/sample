@@ -1,0 +1,7 @@
+{
+  "animationDistanceThreshold": 5,
+  "baseUrl": "https://xxxxxxxxxxxxxxxxxxxxxx.dev.xxxxxxxxxxxx.net",
+  "env": {
+    "configFile": "dev"
+  }
+}
