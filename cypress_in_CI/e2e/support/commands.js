@@ -28,40 +28,4 @@ import * as constant from './constants';
 // -- This is will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
 // let apiserver = Cypress.env('api_url');
-// Cypress.Commands.add('login', (userType, options = {}) => {
-//   cy.initiateApiOrchestrator();
-//   // this is an example of skipping your UI and logging in programmatically
 
-//   // setup some basic types
-//   // and user properties
-//   const types = {
-//     testowner: constant.testownercidev2,
-//     softdelete: constant.softdeletedev2,
-//     basicuser: constant.basicuser,
-//     owneruser: constant.owneruser,
-//     viewuser: constant.viewuser,
-//     adminuser: constant.adminuser,
-//     invaliduser: constant.invaliduser
-//   };
-
-//   // grab the user
-//   const user = types[userType];
-//   cy.visit('/login', { timeout: 30000 });
-//   cy.get(loginPage.username).type(user.email_id);
-//   cy.get(loginPage.password).type(user.password + '{enter}');
-//   cy.title().should('contain', 'Nokia Digital Automation Cloud');
-//   cy.getCookie('nokia_cookieconsent_dismissed').then(data => {
-//     if (!data) {
-//       console.log(data);
-//       cy.get(dashboardPage.cookieDismissBtn).click();
-//     }
-//   });
-// });
-
-// Cypress.Commands.add('verifyRole', (rolename, options = {}) => {
-//   cy.get(headerFooter.menuBtn).click();
-//   cy.get(headerFooter.profileOption)
-//     .should('contain', 'Profile')
-//     .click();
-//   cy.get(headerFooter.profileRole).should('contain', rolename);
-// });
